@@ -1,5 +1,7 @@
 # Moria Server Setup Guide
 
+Tested in conteneur with image:  ubuntu-20.04-standard_20.04-1
+
 ## Base System Setup
 Update and prepare the base system:
 ```bash
