@@ -87,10 +87,11 @@ nano /etc/ssh/sshd_config
 # Set:
 X11Forwarding yes
 
-# In moria (via SSH with X server forwarding enabled):
-winetricks vcrun2019
-wine64 /home/moria/moriaserver/MoriaServer.exe
-wine64 /home/moria/moriaserver/MoriaServer.exe
+# In moria
+xvfb-run winetricks -q vcrun2019
+xvfb-run wine64 /home/moria/moriaserver/MoriaServer.exe
+# Should crash it with ctrl + C after few seconds, and relaunch it
+xvfb-run wine64 /home/moria/moriaserver/MoriaServer.exe
 ```
 **Explanation:**
 - Enables X11 forwarding for graphical setups.
