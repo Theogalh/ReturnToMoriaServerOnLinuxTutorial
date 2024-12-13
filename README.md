@@ -96,6 +96,8 @@ wine64 /home/moria/moriaserver/MoriaServer.exe
 - Enables X11 forwarding for graphical setups.
 - Installs `vcrun2019` (Visual C++ Redistributable 2019) required for the server.
 - Runs the server twice to complete initial setup.
+- In your Windows PC for example, you can SSH with Putty, and launch "vcxsrv" ( an X server for Windows ).
+- When you SSH with Putty, with the settings connection>SSH>X11Forwartind>Enable X11 Forwarding at true, the X server of your Windows PC will show you the images from the SERVER.
 
 ---
 
