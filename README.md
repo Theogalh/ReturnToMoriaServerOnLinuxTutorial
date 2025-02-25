@@ -76,6 +76,8 @@ cd
 - Creates a new user `moria` and switches to it. Downloads the server files using SteamCMD.
 - Replace `<steam_username>` with your Steam account credentials.
 
+- WARN: If you have a GUI installation of linux, launch winecfg with moria user.
+
 ---
 
 ## Configure WINE and the Server
