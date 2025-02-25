@@ -82,13 +82,13 @@ cd
 Perform initial setup and generate configuration files:
 ```bash
 # In moria
-xvfb-run winetricks -q vcrun2019
+xvfb-run winetricks -q vcrun2022
 xvfb-run wine64 /home/moria/moriaserver/MoriaServer.exe
 # Should crash it with ctrl + C after few seconds, and relaunch it
 xvfb-run wine64 /home/moria/moriaserver/MoriaServer.exe
 ```
 **Explanation:**
-- Installs `vcrun2019` (Visual C++ Redistributable 2019) required for the server.
+- Installs `vcrun2022` (Visual C++ Redistributable 2022) required for the server.
 - Runs the server twice to complete initial setup.
 
 ---
